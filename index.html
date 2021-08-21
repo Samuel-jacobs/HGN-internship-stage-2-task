@@ -5,88 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
   <title>Resume website</title>
-  <style>
-		* {
-			margin: 0;
-			padding: 0;
-		}
-		body {
-			font-family: cursive;
-			background-color: #7FB3D5;
-		}
-		header {
-			height: 300px;
-			background-color: #85C1E9;
-
-		}
-		img {
-			width: 200px;
-		}
-		.topnav {
-			padding: 20px;
-		}
-		.caption {
-			
-			text-align: center;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			color: white;
-			font-size: 20px;
-		}
-		section {
-			background-color: white;
-			margin: 30px;
-			
-		}
-		span {
-			padding: 0 10px;
-		}
-		.resume {
-			margin-top: 100px;
-		}
-		.resume-head {
-			
-			padding: 50px;
-			text-align: center;
-			
-		}
-		.resume-body {
-			padding: 50px 30px;
-		}
-		.p1 {
-			padding-top: 20px;
-		}
-		h2, h4 {
-			padding-top: 10px;
-		}
-		.my-2 {
-			border-bottom: 3px solid black;
-		}
-		.my-4 {
-			border-bottom: 2px solid black;
-		}
-		.ex-title {
-			color: grey;
-		}
-		.experience1 {
-			padding-bottom: 20px;
-		}
-		img.zuri-logo {
-			height: 100px;
-			width: 100px;
-			
-		}
-		footer {
-			height: 100px;
-			padding-top: 50px;
-		}
-		.links {
-			text-align: center;
-		}
-		
-  </style>
-</head>
+<head>
 <body>
    
 <main>
@@ -94,18 +16,21 @@
 		<nav>
 			<div class="topnav">
 				<div class="navbar-brand">
-					<a href="https://internship.zuri.team"><img src="brand-logo.png" alt="HGN logo"></a>
+					<a href="https://internship.zuri.team"><img src="brand-logo.png" class="logo" alt="HGN logo"></a>
 				</div>
 			</div>
 		</nav>
-		<div class="caption">
-			<h1>Resume Page </h1>
+		<div class="carousel">
+			<img src="header.jpg" alt="carousel image" width="100%" height="500px">
+			<div class="caption">
+				<h1>Resume Page </h1>
+			</div>
 		</div>
 	</header>
 	<section>
 		<div class="resume">
 			<div class="resume-head">
-				<h1>SAMUEL UFOMBA </h1>
+				<h1 class="title">SAMUEL UFOMBA </h1>
 				<h5> Front-end Web Developer </h5>
 				<div class="p1">
 					<span><i class="fa fa-map-marker"></i> Idu Industrial, Abuja, Nigeria </span> | <span><i class="fa fa-phone"></i> 09078319927  </span> | <span><i class="fa fa-envelope"></i> jacobssamuel57@gmail.com </span> 
@@ -115,10 +40,10 @@
 			<div class="resume-body">
 				<h2> Summary </h2>
 				<hr class="my-4">
-				<p class="p1">Front-end web developer with over 2 years experience building responsive and interactive website. 
-				Proficient in HTML, CSS, Javascript and Bootstrap.
-				Dedicated to learning and constant improvment. Open to exploring new ideas and engaging in collaborative efforts towards 
-				creating better websites.
+				<p class="p1">Front-end web developer with over 2 years experience building responsive and interactive website. <br>
+				Proficient in HTML, CSS, Javascript and Bootstrap.<br>
+				Dedicated to learning and constant self-development. <br>
+				Open to exploring new ideas and engaging in collaborative efforts towards creating better websites.
 				</br></br>
 				<h2> Experience </h2>
 				<hr class="my-4">
@@ -141,13 +66,13 @@
 				<h2>Certifications </h2>
 				<hr class="my-4">
 				<h4> • Web Design & Development(frontend) certificate </h4>
-				<p> Side Hustle Internship, 2021 </p> </br>
+				<p><i> Side Hustle Internship, 2021 </i></p> </br>
 				<hr class="my-3"> </br>
 				<h4> • Jobberman Soft Skills Training Certificate </h4>
-				<p> Jobberman, 2021 </p> </br>
+				<p> <i>Jobberman, 2021</i> </p> </br>
 				<hr class="my-3">  </br>
 				<h4> • HTML, CSS, Javascript completion certificates </h4>
-				<p> Solo Learn, 2019 </p>
+				<p> <i>Solo Learn, 2019</i> </p>
 				
 				</br> </br>
 				
@@ -168,7 +93,7 @@
 				<h4> • Willingness to learn </h4>
 				<p> I'm always eager to find ways to improve on my skill set </p>
 				<h4> • Time management </h4>
-				<p>I organize my schedule in order to meet deadlines at all times</p>
+				<p>I organize my schedule in order to meet deadlines </p>
 				<h4> • Collaborative </h4>
 				<p> I'm keen to share ideas and learn from others. I also love to contribute to team effort in order to create 
 				high-quality end product</p>
@@ -186,6 +111,13 @@
 		<div class="links">
 			<h3>Links </h3>
 			<a href="https://internship.zuri.team">Zuri Internship Website</a> | <a href="https://samueljacobs.netlify.app/"> My portfolio</a>
+			<div class="socials">
+			<span class="pr-2"><a href="https://github.com/Samuel-jacobs" class="social-link"> <i class="fab fa-github"> </i> </a></span>
+			<span class="pl-2 pr-2"><a href="https://www.twitter.com/_samueljacobs_" class="social-link"> <i class="fab fa-twitter"> </i> </a></span>
+			<span class="pl-2 pr-2"><a href="https://www.instagram.com/_samueljacobs_" class="social-link"> <i class="fab fa-instagram"> </i> </a></span>
+			<span class="pl-2 pr-2"><a href="https://www.codepen.io/samjac" class="social-link"> <i class="fab fa-codepen"> </i> </a></span>
+			<span class="pl-2"><a href="https://www.linkedin.com/in/samuel-jacobs-868790216" class="social-link"> <i class="fab fa-linkedin"> </i> </a></span>
+		</div>
 		</div>
 	</footer>
 </main>

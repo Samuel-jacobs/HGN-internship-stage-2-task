@@ -1,0 +1,115 @@
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: cursive;
+			background-color: #7FB3D5;
+		}
+		a:link {
+			text-decoration: none;
+		}
+		img.logo {
+			width: 200px;
+		}
+		.topnav {
+			padding: 20px;
+			background-color: #85C1E9;
+		}
+		.carousel {
+			position: relative;
+		}
+		.caption {
+			text-align: center;
+			color: white;
+			font-size: 25px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		section {
+			background-color: white;
+			margin: 30px;
+			
+		}
+		span {
+			padding: 0 10px;
+		}
+		.resume {
+			margin-top: 100px;
+		}
+		.title {
+			font-size: 30px;
+		}
+		.resume-head {
+			padding: 50px;
+			text-align: center;
+		}
+		.resume-body {
+			padding: 50px 30px;
+		}
+		.p1 {
+			padding-top: 20px;
+		}
+		h2, h4 {
+			padding-top: 10px;
+		}
+		.my-2 {
+			border-bottom: 3px solid black;
+		}
+		.my-4 {
+			border-bottom: 2px solid black;
+		}
+		.ex-title {
+			color: grey;
+		}
+		.experience1 {
+			padding-bottom: 20px;
+		}
+		img.zuri-logo {
+			height: 100px;
+			width: 100px;
+			
+		}
+		footer {
+			height: 100px;
+			padding-top: 50px;
+		}
+		.links {
+			text-align: center;
+		}
+		.socials {
+			padding: 20px 0;
+		}
+		.fa-github {
+			color: #333;
+		}
+		.fa-github:hover {
+			opacity: 0.6;
+		}
+		.fa-twitter {
+			color: #1da1f2;
+		}
+		.fa-twitter:hover {
+			opacity: 0.6;
+		}
+		.fa-instagram {
+			color: #e1306c;
+		}
+		.fa-instagram:hover {
+			opacity: 0.6;
+		}
+		.fa-codepen {
+			color: #ae63e4;
+		}
+		.fa-codepen:hover {
+			opacity: 0.6;
+		}
+		.fa-linkedin {
+			color: #0077b5;
+		}
+		.fa-linkedin:hover {
+			opacity: 0.6;
+		}	
